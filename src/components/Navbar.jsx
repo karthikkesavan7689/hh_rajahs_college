@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, ChevronDown, Phone, Mail, Home, Info, Book, PenTool, Database, Users, GraduationCap, Award, MessageSquare, Bell, Shield, MapPin, Coffee, GraduationCap as AcademicIcon } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Mail, Home, Info, Bell, Shield, MapPin, MessageSquare, Coffee, GraduationCap as AcademicIcon } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
