@@ -1,0 +1,109 @@
+:root {
+  --primary: #1a237e;
+  --primary-light: #534bae;
+  --primary-dark: #000051;
+  --accent: #ffd700;
+  --accent-light: #fff263;
+  --accent-dark: #c8a415;
+  --bg: #ffffff;
+  --bg-soft: #f8f9fa;
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --white: #ffffff;
+  --glass: rgba(255, 255, 255, 0.8);
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Base Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Premium Button Style */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: var(--primary-dark);
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Animations Helpers */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.reveal-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: var(--transition);
+}
