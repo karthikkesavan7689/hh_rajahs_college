@@ -36,7 +36,7 @@ const PrincipalMessage = () => {
                         <p className="lead">Education is the basis of all progress. The entire purpose of education is not to restrict itself to imparting bookish knowledge but to inculcate humanitarian values.</p>
                         <p>I firmly believe that growth is not an arrow pointing direction, but a hole that expands and lights up. It is a process of transforming all the students to become academically excellent, emotionally stable and socially responsible, and to become GOOD HUMAN BEINGS.</p>
                         <div className="principal-info">
-                            <h4>Dr. C. Thiruchelvam</h4>
+                            <h4>Dr. B. Buvaneswari M.Com., MPhil., MBA., Ph.D.</h4>
                             <span>Principal, H.H. The Rajah’s College</span>
                         </div>
                         <Link to="/page/principals-message" className="btn btn-primary">Read Full Message</Link>

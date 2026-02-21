@@ -68,7 +68,21 @@ export const pagesContent = {
     },
     "leadership": {
         title: "Institutional Leadership",
-        content: `<h3>Governing Body</h3><p>The college is governed by a dedicated body of scholars and administrators committed to academic excellence.</p>`
+        content: `
+            <h3>College Administration</h3>
+            <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--primary-dark); margin-bottom: 30px;">
+                <h4 style="margin: 0; color: var(--primary-dark);">Dr. B. Buvaneswari M.Com., MPhil., MBA., Ph.D.</h4>
+                <p style="margin: 5px 0 0 0; font-weight: 600; color: #666;">Principal</p>
+            </div>
+            
+            <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--primary-dark); margin-bottom: 30px;">
+                <h4 style="margin: 0; color: var(--primary-dark);">Dr. N. Athavan, M.Sc., Ph.D.</h4>
+                <p style="margin: 5px 0 0 0; font-weight: 600; color: #666;">Controller of Examinations</p>
+            </div>
+
+            <h3>Governing Body</h3>
+            <p>The college is governed by a dedicated body of scholars and administrators committed to academic excellence and institutional growth.</p>
+        `
     },
     "organogram": {
         title: "College Organogram",
@@ -582,7 +596,7 @@ export const pagesContent = {
                 <p><strong>Date:</strong> 17.04.2023</p>
                 <p><strong>Place:</strong> H.H. The Rajah’s college (Autonomous), Pudukkottai – New Auditorium</p>
                 <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
-                <p style="line-height: 1.7;">The Anti-Dowry Club, in collaboration with the Anti-Harassment and Sexual Violence Prevention Committee, organized an awareness programme on 17.04.2023. Principal Dr. C. Thiruchelvam presided over the meeting.</p>
+                <p style="line-height: 1.7;">The Anti-Dowry Club, in collaboration with the Anti-Harassment and Sexual Violence Prevention Committee, organized an awareness programme on 17.04.2023. Principal Dr. B. Buvaneswari presided over the meeting.</p>
                 <p style="line-height: 1.7;">Dr. S. Alagumanian (Co-ordinator) welcomed the gathering. Dr. N. Athavan (IQAC Co-ordinator) gave the introductory speech. Special invitees <strong>Mrs. B. Geetha (Additional Superintendent of Police)</strong> and <strong>Ms. G. Raghavi (Deputy Superintendent of Police)</strong> delivered impactful speeches on dowry awareness. Dr. A. Vasuhi (Co-ordinator for Antidowry club) concluded the event with a vote of thanks.</p>
             </div>
         `
@@ -676,7 +690,7 @@ export const pagesContent = {
             <h4 style="color: #15803d; border-bottom: 2px solid #bbf7d0; padding-bottom: 10px;">Activity Timeline</h4>
             <div style="margin-top: 20px;">
                 <div style="padding: 15px; border-left: 3px solid #16a34a; margin-bottom: 15px; background: white;">
-                    <p style="margin: 0;"><strong>2021-2022:</strong> Solid Waste Management Guest Lecture by Principal Dr. C. Thiruchelvam & Afforestation program.</p>
+                    <p style="margin: 0;"><strong>2021-2022:</strong> Solid Waste Management Guest Lecture by Principal Dr. B. Buvaneswari & Afforestation program.</p>
                 </div>
                 <div style="padding: 15px; border-left: 3px solid #16a34a; margin-bottom: 15px; background: white;">
                     <p style="margin: 0;"><strong>2020-2021:</strong> Webinar on Stress Management & Nutritional Food during COVID-19 by Thiru. Karthi Deivanayagan.</p>
