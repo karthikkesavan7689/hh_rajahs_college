@@ -24,19 +24,14 @@
 }
 
 .top-bar .container {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .quick-links {
     display: flex;
-    justify-content: center;
-}
-
-.top-bar .container>*:last-child {
-    display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .contact-info {
@@ -229,9 +224,6 @@
         text-align: center;
     }
 
-    .top-bar-spacer {
-        display: none;
-    }
 
     .contact-info {
         justify-content: center;

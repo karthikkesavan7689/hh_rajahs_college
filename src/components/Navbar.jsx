@@ -114,7 +114,6 @@ const Navbar = () => {
                     <div className="quick-links">
                         <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=801119" target="_blank" className="fees-btn">Online Fees Payment</a>
                     </div>
-                    <div className="top-bar-spacer"></div>
                 </div>
             </div>
 
