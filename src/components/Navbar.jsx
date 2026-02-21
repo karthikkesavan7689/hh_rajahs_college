@@ -37,7 +37,10 @@ const Navbar = () => {
             submenu: [
                 { title: 'Departments', path: '/page/departments' },
                 { title: 'Curriculum', path: '/page/curriculum' },
-                { title: 'Academic Calendar', path: '/page/calendar' }
+                { title: 'Academic Calendar', path: '/page/calendar' },
+                { title: 'CoE Office', path: '/page/coe-office' },
+                { title: 'NPTEL / SWAYAM', path: '/page/nptel-swayam' },
+                { title: 'ICT & E-Resources', path: '/page/ict-resources' }
             ]
         },
         {
@@ -58,6 +61,7 @@ const Navbar = () => {
                 { title: 'Announcements', path: '/page/announcements' },
                 { title: 'News & Events', path: '/page/news-events' },
                 { title: 'Rank Holders', path: '/page/rank-holders' },
+                { title: 'Examination Results', path: '/page/results-portal' },
                 { title: 'Job Application', path: '/page/job-application' }
             ]
         },
@@ -65,6 +69,11 @@ const Navbar = () => {
             title: 'Clubs & Cells',
             icon: <Shield size={18} />,
             submenu: [
+                { title: 'Anti Dowry Club', path: '/page/anti-dowry' },
+                { title: 'Child Rights Club', path: '/page/child-rights' },
+                { title: 'Red Ribbon Club', path: '/page/rrc' },
+                { title: 'Eco-Club', path: '/page/eco-club' },
+                { title: 'NCC (Army Wing)', path: '/page/ncc' },
                 { title: 'Curriculum Committee', path: '/page/curriculum-committee' },
                 { title: 'Anti Ragging Committee', path: '/page/anti-ragging' },
                 { title: 'Students Welfare Committee', path: '/page/students-welfare' },
@@ -86,9 +95,9 @@ const Navbar = () => {
             title: 'Feedback',
             icon: <MessageSquare size={18} />,
             submenu: [
-                { title: 'General Feedback', path: '/page/general-feedback' },
-                { title: 'Course Feedback', path: '/page/course-feedback' },
-                { title: 'Institutional Quality', path: '/page/institutional-quality' }
+                { title: 'Parent Feedback', path: '/page/parent-feedback' },
+                { title: 'Alumni Feedback', path: '/page/alumni-feedback' },
+                { title: 'Student Feedback', path: '/page/student-feedback' }
             ]
         }
     ];

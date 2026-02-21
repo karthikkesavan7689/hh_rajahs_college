@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './PrincipalMessage.css';
 
 const PrincipalMessage = () => {
@@ -38,7 +39,7 @@ const PrincipalMessage = () => {
                             <h4>Dr. C. Thiruchelvam</h4>
                             <span>Principal, H.H. The Rajah’s College</span>
                         </div>
-                        <button className="btn btn-primary">Read Full Message</button>
+                        <Link to="/page/principals-message" className="btn btn-primary">Read Full Message</Link>
                     </motion.div>
                 </div>
             </div>

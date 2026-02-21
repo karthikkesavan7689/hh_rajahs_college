@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin, ExternalLink } from 'lucide-react';
 import './Footer.css';
 
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <footer className="footer">
@@ -24,12 +26,12 @@ const Footer = () => {
                     <div className="footer-links">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Academics</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="#">Examinations</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/page/institutional-profile">About Us</Link></li>
+                            <li><Link to="/page/departments">Academics</Link></li>
+                            <li><Link to="/page/research">Research</Link></li>
+                            <li><Link to="/page/calendar">Examinations</Link></li>
+                            <li><Link to="/page/address">Contact Us</Link></li>
                         </ul>
                     </div>
 

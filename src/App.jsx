@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/hh_rajahs_college">
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="app">
         <Navbar />
         <Routes>

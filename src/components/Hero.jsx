@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { ArrowRight, PlayCircle, History, GraduationCap, Users, Target } from 'lucide-react';
 import './Hero.css';
 
@@ -19,12 +20,12 @@ const Hero = () => {
                         <p>Welcome to H.H. The Rajah’s College. Empowering rural youth through excellence in education, research, and innovation for over 160 years.</p>
 
                         <div className="hero-btns">
-                            <button className="btn btn-accent">
+                            <Link to="/page/announcements" className="btn btn-accent">
                                 Admission 2025-26 <ArrowRight size={18} />
-                            </button>
-                            <button className="btn btn-outline">
+                            </Link>
+                            <Link to="/page/gallery" className="btn btn-outline">
                                 <PlayCircle size={18} /> Virtual Tour
-                            </button>
+                            </Link>
                         </div>
                     </motion.div>
                 </div>
@@ -42,7 +43,7 @@ const Hero = () => {
                             <div className="card-badge">Latest News</div>
                             <h3>UG Admission Rank List Published</h3>
                             <p>The merit list for various departments is now available.</p>
-                            <a href="#" className="read-more">View All News <ArrowRight size={14} /></a>
+                            <Link to="/page/news-events" className="read-more">View All News <ArrowRight size={14} /></Link>
                         </motion.div>
 
                         <div className="hero-stats-group">
